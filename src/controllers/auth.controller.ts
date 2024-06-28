@@ -17,7 +17,7 @@ const validateRegisterSchema = Yup.object().shape({
     [Yup.ref("password"), ""],
     "Passwords must match"
   ),
-  role: Yup.string().oneOf(["admin", "user"]), // Add this line to validate role
+  role: Yup.string().oneOf(["admin", "user"]),
 });
 
 const validateLoginSchema = Yup.object().shape({
@@ -130,7 +130,7 @@ export default {
     }
   },
   async register(req: Request, res: Response) {
-    const { fullName, username, email, password, role } = req.body; // Destructure role here
+    const { fullName, username, email, password, role } = req.body;
     try {
       await validateRegisterSchema.validate({
         fullName,
@@ -145,7 +145,7 @@ export default {
         username,
         email,
         password,
-        role: role || "user", // Use provided role or default to "user"
+        role: role || "user",
       });
       res.json({
         message: "User registered successfully",
@@ -168,4 +168,3 @@ export default {
     }
   },
 };
-

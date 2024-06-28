@@ -432,7 +432,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"admin@toko.com\",\r\n  \"password\": \"12341234\"\r\n}",
+							"raw": "{\r\n  \"email\": \"radit@mail.com\",\r\n  \"password\": \"12341234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -456,7 +456,7 @@
 					"response": []
 				},
 				{
-					"name": "User's Status",
+					"name": "User Details",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -466,7 +466,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2ViNDYyZmE1MzhkMzFhYjg4YjZlZCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTcxOTU4MDAwNiwiZXhwIjoxNzE5NjAxNjA2fQ.wSrhKuVMAiJ_x1qAb7hRREHm8v-HK9Hz_Q3VHxLKoOY",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2ViMGEyYzgzMDBlZDIyNjhjYWU2MyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzE5NTkzNzk1LCJleHAiOjE3MTk2MTUzOTV9.U_S5FszidQDE3T7qL8U8pSPv4t62MW0aXDXlu2lU17k",
 									"type": "string"
 								}
 							]
