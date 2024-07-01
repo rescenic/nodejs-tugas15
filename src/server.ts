@@ -3,7 +3,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-import express from "express";
+import express, { Request, Response } from "express";
 import db from "@/utils/database";
 import routes from "@/routes";
 import bodyParser from "body-parser";
@@ -16,6 +16,13 @@ db();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", (req: Request, res: Response) => {
+  res.json({
+    message: "Sanbercode REST API Server",
+    data: "Created by: Muhammad Ridwan Hakim",
+  });
+});
 
 app.use("/api", routes);
 
