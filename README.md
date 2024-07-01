@@ -2,7 +2,7 @@
 
 ## Muhammad Ridwan Hakim
 
-### Deploy Localhost
+### Deploy on Localhost
 
 ```bash
 git clone https://github.com/rescenic/nodejs-tugas15.git
@@ -29,3 +29,7 @@ npm run dev
 #### 3. User Can't Access User Details
 
 ![npm run dev](docs/nodejs-tugas-15-3-user-blocked.png)
+
+### Deploy on Railway
+
+<https://rescenic-sanbercode-batch-57.up.railway.app/>

@@ -12,6 +12,13 @@ import categoryController from "./controllers/category.controller";
 
 const router = express.Router();
 
+router.get("/", (req, res) => {
+  res.json({
+    message: "Sanbercode REST API Server",
+    data: "Created by: Muhammad Ridwan Hakim",
+  });
+});
+
 router.post("/auth/register", authController.register);
 router.post("/auth/login", authController.login);
 router.get(

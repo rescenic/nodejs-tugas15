@@ -17,12 +17,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/products/",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products/",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products",
@@ -38,12 +36,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/products?page=1&limit=10",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products?page=1&limit=10",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products"
@@ -68,12 +64,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/products/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products",
@@ -104,12 +98,10 @@
 							"raw": "{\n    \"products\": [\n        {\n            \"name\": \"Kemeja Variant 1\",\n            \"description\": \"Deskripsi kemeja variant 1\",\n            \"images\": [\n                \"https://res.cloudinary.com/five-code/image/upload/v1718805645/fxuurm45mt5talry7a29.png\",\n                \"sepatu2.jpg\",\n                \"sepatu3.jpg\"\n            ],\n            \"price\": 20000,\n            \"qty\": 120,\n            \"categoryId\": \"6673eed48865a2d1991420bb\",\n            \"slug\": \"variant-1-slug\"\n        },\n        {\n            \"name\": \"Kemeja Variant 2\",\n            \"description\": \"Deskripsi kemeja variant 2\",\n            \"images\": [\n                \"https://res.cloudinary.com/five-code/image/upload/v1718805645/fxuurm45mt5talry7a29.png\",\n                \"sepatu2.jpg\",\n                \"sepatu3.jpg\"\n            ],\n            \"price\": 25000,\n            \"qty\": 150,\n            \"categoryId\": \"6673eed48865a2d1991420bb\",\n            \"slug\": \"variant-2-slug\"\n        },\n        {\n            \"name\": \"Kemeja Variant 3\",\n            \"description\": \"Deskripsi kemeja variant 3\",\n            \"images\": [\n                \"https://res.cloudinary.com/five-code/image/upload/v1718805645/fxuurm45mt5talry7a29.png\",\n                \"sepatu2.jpg\",\n                \"sepatu3.jpg\"\n            ],\n            \"price\": 30000,\n            \"qty\": 100,\n            \"categoryId\": \"6673eed48865a2d1991420bb\",\n            \"slug\": \"variant-3-slug\"\n        }\n    ]\n}\n"
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/products",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products"
@@ -133,12 +125,10 @@
 							"raw": "{\n    \"name\": \"Updated Product\",\n    \"description\": \"Updated Description\",\n    \"images\": [\"updated-image-url\"],\n    \"price\": 200,\n    \"qty\": 20,\n    \"categoryId\": \"updated-category-id\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/products/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products",
@@ -160,12 +150,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/products/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/products/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"products",
@@ -192,12 +180,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/categories",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/categories",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"categories"
@@ -212,12 +198,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/categories/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/categories/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"categories",
@@ -248,12 +232,10 @@
 							"raw": "{\n    \"name\": \"Pakaian Outdoor\",\n    \"description\": \"Kategori khusus pakaian outdoor, semisal hiking, climbing, dan camping.\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/categories",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/categories",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"categories"
@@ -277,12 +259,10 @@
 							"raw": "{\n    \"name\": \"Updated Category\",\n    \"description\": \"Updated Description\"\n}"
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/categories/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/categories/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"categories",
@@ -304,12 +284,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/categories/:id",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/categories/:id",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"categories",
@@ -346,12 +324,10 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/upload",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/upload",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"upload"
@@ -376,12 +352,10 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/uploads",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/uploads",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"uploads"
@@ -410,12 +384,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/register",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/auth/register",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
@@ -440,12 +412,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/login",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/auth/login",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
@@ -483,12 +453,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/me",
-							"protocol": "http",
+							"raw": "{{base_url}}/api/auth/me",
 							"host": [
-								"localhost"
+								"{{base_url}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
@@ -499,6 +467,40 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url_dev",
+			"value": "http://localhost:3000",
+			"type": "string"
+		},
+		{
+			"key": "base_url",
+			"value": "https://rescenic-sanbercode-batch-57.up.railway.app",
+			"type": "string"
 		}
 	]
 }
