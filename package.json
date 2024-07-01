@@ -1,10 +1,11 @@
 {
   "name": "nodejs-tugas15",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev -r tsconfig-paths/register src/server.ts"
+    "dev": "ts-node-dev -r tsconfig-paths/register src/server.ts",
+    "start": "ts-node -r tsconfig-paths/register src/server.ts"
   },
   "author": "Muhammad Ridwan Hakim",
   "license": "ISC",
